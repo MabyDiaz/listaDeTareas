@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+  font-family: 'Berlysa';
+  src: url('./fuente/Berlysa.otf') format('otf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-image: url('./img/bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+}
+
+body p {
+  font-family: 'Berlysa';
+  font-size: 40px;
+  padding: 50px 0px 30px 0px;
+}
+
+.container {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  box-shadow: 0px 2px 10px rgba(76, 2, 111, 0.5);
+  padding: 20px;
+  text-align: center;
+  z-index: 2;
+}
+
+h1 {
+  font-size: 1.7rem;
+  text-transform: uppercase;
+  color: #44008c;
+  margin-bottom: 20px;
+}
+
+#form input {
+  width: 300px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+#btn-agregar {
+  background-color: #dd22e1;
+  color: white;
+  border: none;
+  padding: 8px;
+  width: 320px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+#btn-agregar:hover {
+  background-color: #44008c;
+}
+
+#lista-tareas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarea {
+  width: 290px;
+  background-color: #f9f9f9;
+  margin: 8px 0;
+  padding: 10px;
+  border-left: 5px solid #dd22e1;
+  border-radius: 5px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.tarea span {
+  flex-grow: 1;
+  max-width: 80%;
+  margin-left: 10px;
+  word-wrap: break-word;
+  text-align: start;
+}
+
+.tarea button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.tarea button:hover {
+  background-color: #f1f1f1;
+}
+
+.tarea button i {
+  color: #45008f;
+  font-size: 18px;
+}
+
+.tarea button:hover i {
+  color: #dd22e1;
+}
+
+.small-alert {
+  width: 300px;
+  height: 300px;
+}
