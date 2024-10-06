@@ -4,8 +4,8 @@
   font-family: 'Berlysa';
   src: url('./fuente/Berlysa.otf') format('otf'),
     url('./fuente/Berlysa.ttf') format('ttf'),
-    url('./fuente/Berlysa\ Italic.otf') format('otf'),
-    url('./fuente/Berlysa\ Italic.ttf') format('ttf');
+    url('./fuente/BerlysaItalic.otf') format('otf'),
+    url('./fuente/BerlysaItalic.ttf') format('ttf');
 }
 
 * {
