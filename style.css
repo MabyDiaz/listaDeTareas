@@ -30,7 +30,7 @@ body p {
 }
 
 .container {
-  width: 400px;
+  width: 340px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -139,6 +139,6 @@ h1 {
 
   .container {
     width: 70%;
-    padding: 20px 40px;
+    padding: 20px 50px;
   }
 }
