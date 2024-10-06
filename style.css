@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-@font-face {
-  font-family: 'Berlysa';
-  src: url('./fuente/Berlysa.otf') format('otf'),
-    url('./fuente/Berlysa.ttf') format('ttf'),
-    url('./fuente/BerlysaItalic.otf') format('otf'),
-    url('./fuente/BerlysaItalic.ttf') format('ttf');
-}
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
 
 * {
   margin: 0;
@@ -30,8 +23,8 @@ body {
 }
 
 body p {
-  font-family: 'Berlysa';
-  font-size: 40px;
+  font-family: 'Dancing Script', cursive;
+  font-size: 2rem;
   padding: 50px 0px 30px 0px;
 }
 
