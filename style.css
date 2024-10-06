@@ -133,6 +133,10 @@ h1 {
 }
 
 @media (max-width: 400px) {
+  body p {
+    padding: 40px 0px 20px 0px;
+  }
+
   .container {
     width: 70%;
     padding: 20px 40px;
